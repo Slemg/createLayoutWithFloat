@@ -47,7 +47,7 @@ h1 {
     color: #ACB4BF;
     font-size: 19px;
     line-height: 26px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .apply {
@@ -65,7 +65,7 @@ h1 {
     color: #ACB4BF;
     font-size: 18px;
     line-height: 26px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .cover {
@@ -85,7 +85,7 @@ h1 {
     color: #ACB4BF;
     font-size: 20px;
     line-height: 22px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 span {
@@ -109,6 +109,7 @@ span {
     margin: 0 auto;
     max-width: max-content;
     margin-top: 73px;
+    position:relative
 }
 
 .container:after {
@@ -126,11 +127,11 @@ span {
     background-repeat: no-repeat, no-repeat;
     background-position: center, 88px 15px;
 }
-.get .container {
+ .container .get col {
     min-height: 60px;
-    background-image: url('./vibes/Rectangle.png'), url('./vibes/circle.svg');
+    background-image: url('./vibes/Rectangle.svg'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: center, 88px 15px;
+    background-position: center, 88px 25px;
 }
 .background-first {
     z-index: 1;	    
