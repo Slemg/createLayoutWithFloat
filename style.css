@@ -1,9 +1,8 @@
 * {
     background: #363839;
     text-align: center;
-    font-family: 'Work Sans', sans-serif
-
-}
+    font-family: 'Work Sans', sans-serif;
+    }
 
 h5 {
     margin-top: 120px;
@@ -27,9 +26,7 @@ h1 {
     line-height: 25px;
 }
 
-.one {
-    background: none;
-}
+;
 
 .get {
     float: left;
@@ -52,6 +49,7 @@ h1 {
 
 .apply {
     float: left;
+    margin-left: 220px;
 }
 
 .anchor-two {
@@ -60,7 +58,7 @@ h1 {
 }
 
 .content-two {
-    height: 52px;
+    height: 54px;
     width: 234px;
     color: #ACB4BF;
     font-size: 18px;
@@ -68,15 +66,14 @@ h1 {
     padding-bottom: 100px;
 }
 
-.cover {
+.cover.col {
     float: left;
-
+    margin-left: 220px;
 }
 
 .anchor-three {
     font-size: 22px;
     height: 22px;
-
 }
 
 .content-three {
@@ -106,10 +103,10 @@ span {
 }
 
 .container {
-    margin: 0 auto;
+    margin-left: 600px;
     max-width: max-content;
     margin-top: 73px;
-    position:relative
+    float: left;
 }
 
 .container:after {
@@ -121,22 +118,21 @@ span {
     margin: 0 66px;
 }
 
-.apply .contain {
+.apply .contain  {
     min-height: 60px;
     background-image: url('./vibes/Rectangle.png'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: center, 88px 15px;
 }
- .container .get col {
+ .container .get.col {
     min-height: 60px;
     background-image: url('./vibes/Rectangle.svg'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: center, 88px 25px;
+    background-position: center, 55px 22px;
 }
-.background-first {
-    z-index: 1;	    
-}	
-
-.background-second {	
-    z-index: 2;
+.contained .cover.col {
+    min-height: 60px;
+    background-image: url('./vibes/3.svg'), url('./vibes/circle.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, 88px 22px;
 }
