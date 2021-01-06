@@ -2,7 +2,7 @@
     background: #363839;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    }
+}
 
 h5 {
     margin-top: 120px;
@@ -26,13 +26,6 @@ h1 {
     line-height: 25px;
 }
 
-;
-
-.get {
-    float: left;
-
-}
-
 .anchor-one {
     font-size: 22px;
     height: 22px;
@@ -47,11 +40,6 @@ h1 {
     padding-bottom: 100px;
 }
 
-.apply {
-    float: left;
-    margin-left: 220px;
-}
-
 .anchor-two {
     font-size: 22px;
     height: 22px;
@@ -64,11 +52,6 @@ h1 {
     font-size: 18px;
     line-height: 26px;
     padding-bottom: 100px;
-}
-
-.cover.col {
-    float: left;
-    margin-left: 220px;
 }
 
 .anchor-three {
@@ -91,46 +74,58 @@ span {
     padding: 20px;
     margin-top: 20px;
     border-radius: 3px;
-
 }
 
 .button {
     background: #F46752;
 }
 
-.contain {
-    position: relative;
-}
+
+/* ниже - размещаем по центру контейнер и ограничиваем его ширину, такие свойства и сам контейнер используются очень часто, можешь посмотреть на лругих сайтах*/
 
 .container {
-    margin-left: 600px;
+    margin: 0 auto;
     max-width: max-content;
     margin-top: 73px;
-    float: left;
 }
+
+
+/* ниже - стили, чтобы обертка-контейнер для элементов со свойством float имела высоту, если уберешь и наведешь на container - увидишь, что высота контейнера 0 */
 
 .container:after {
     content: " ";
     display: block;
     clear: both;
 }
-.col {
+
+
+/* ниже - элементы с повторяющимися свойствами перечисляем через запятую для экономии кода*/
+
+.first-column,
+.second-column,
+.third-column {
+    float: left;
     margin: 0 66px;
 }
 
-.apply .contain  {
+
+/* ниже - задал файлам понятные названия, изменив их имена, теперь смотря на код, видим, что все цифры есть, все ок работает*/
+
+.get.col {
     min-height: 60px;
-    background-image: url('./vibes/Rectangle.png'), url('./vibes/circle.svg');
+    background-image: url('./vibes/one.svg'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: center, 88px 15px;
 }
- .container .get.col {
+
+.apply.col {
     min-height: 60px;
-    background-image: url('./vibes/Rectangle.svg'), url('./vibes/circle.svg');
+    background-image: url('./vibes/two.png'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: center, 55px 22px;
 }
-.contained .cover.col {
+
+.cover.col {
     min-height: 60px;
     background-image: url('./vibes/3.svg'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
