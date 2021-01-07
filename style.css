@@ -121,13 +121,13 @@ span {
 
 .get.col {
     min-height: 60px;
-    background-image: url('./vibes/Rectangle.svg'), url('./vibes/circle.svg');
+    background-image: url('./vibes/one.svg'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: center, 117px 22px;
 }
 .apply.col {
     min-height: 60px;
-    background-image: url('./vibes/Rectangle.png'), url('./vibes/circle.svg');
+    background-image: url('./vibes/two.png'), url('./vibes/circle.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: center, 88px 15px;
 
